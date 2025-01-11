@@ -23,7 +23,7 @@ export default function Footer() {
                                 /> */}
                             </Link>
                             <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                                We're a software agency on a mission to bridge a gap between Marketplace Businesses and Innovation through custom software and automations.
+                                We&apos;re a software agency on a mission to bridge a gap between Marketplace Businesses and Innovation through custom software and automations.
                             </p>
                             <p>
                                 Murawa Office Park (HQ),

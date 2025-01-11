@@ -144,7 +144,7 @@ export const DATA = {
         name: "Raymundo Alvarado",
         position: "Development Coordinator at BeXR",
         imageUrl: "/logos/logo-bexr.jfif",
-        text: "We've worked closely with this team on various projects, and their support has been crucial for the success of our VR and AR initiatives. Their expertise and collaboration have exceeded our expectations every time."
+        text: "We&apos;ve worked closely with this team on various projects, and their support has been crucial for the success of our VR and AR initiatives. Their expertise and collaboration have exceeded our expectations every time."
       },
       {
         name: "Edgardo González",
@@ -168,7 +168,7 @@ export const DATA = {
   },
   contactSection: {
     title: "Interesting Collaboration With Us?",
-    description: "Let's talk about your project and building a team that scales to your growth, speeds up your software delivery and matches your culture.",
+    description: "Let&apos;s talk about your project and building a team that scales to your growth, speeds up your software delivery and matches your culture.",
     contactButtonText: "Contact Us"
   },
   footer: {
