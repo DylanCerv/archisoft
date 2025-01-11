@@ -14,12 +14,12 @@
   --font-lato: 'lato', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0E0E0E;
     --foreground: #E2E2E2;
   }
-}
+} */
 
 html {
   scroll-behavior: smooth;

@@ -5,7 +5,7 @@ import { DATA } from '@/data/data';
 
 export default function Footer() {
     return (
-        <footer className="relative z-10 px-6 md:px-24 bg-gray-900 text-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+        <footer className="relative z-10 px-6 md:px-24 bg-gray-900 text-white pb-10 pt-20  lg:pb-20 lg:pt-[120px]">
             <div className="container max-w-[1240px] mx-auto">
                 <div className="-mx-4 flex flex-wrap justify-between">
                     <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -16,13 +16,8 @@ export default function Footer() {
                                     colorText='#fff'
                                     scale={0.35}
                                 />
-                                {/* <img
-                                    src="/logo.svg"
-                                    alt="logo"
-                                    className="max-w-full dark:hidden"
-                                /> */}
                             </Link>
-                            <p className="mb-7 text-base text-body-color dark:text-dark-6">
+                            <p className="mb-7 text-base text-body-color ">
                                 We&apos;re a software agency on a mission to bridge a gap between Marketplace Businesses and Innovation through custom software and automations.
                             </p>
                             <p>
@@ -30,7 +25,7 @@ export default function Footer() {
                                 Murawa 12/18,
                                 61-655 Poznań, Poland
                             </p>
-                            {/* <p className="flex items-center text-sm font-medium text-dark dark:text-white">
+                            {/* <p className="flex items-center text-sm font-medium text-dark ">
                                 <span className="mr-3 text-primary">
                                     <svg
                                         width="20"
@@ -89,13 +84,13 @@ export default function Footer() {
 
                         <div className="w-full px-4 sm:w-1/2">
                             <div className="mb-10 w-full">
-                                <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
+                                <h4 className="mb-9 text-lg font-semibold text-dark ">
                                     Follow Us On
                                 </h4>
                                 {/* <div className="mb-6 flex items-center">
                                     <a
                                         href="javascript:void(0)"
-                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white    sm:mr-4 lg:mr-3 xl:mr-4"
                                     >
                                         <svg
                                             width="8"
@@ -108,7 +103,7 @@ export default function Footer() {
                                     </a>
                                     <a
                                         href="javascript:void(0)"
-                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white    sm:mr-4 lg:mr-3 xl:mr-4"
                                     >
                                         <svg
                                             width="16"
@@ -121,7 +116,7 @@ export default function Footer() {
                                     </a>
                                     <a
                                         href="javascript:void(0)"
-                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white    sm:mr-4 lg:mr-3 xl:mr-4"
                                     >
                                         <svg
                                             width="16"
@@ -134,7 +129,7 @@ export default function Footer() {
                                     </a>
                                     <a
                                         href="javascript:void(0)"
-                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                                        className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white    sm:mr-4 lg:mr-3 xl:mr-4"
                                     >
                                         <svg
                                             width="14"
@@ -146,7 +141,7 @@ export default function Footer() {
                                         </svg>
                                     </a>
                                 </div> */}
-                                <p className="text-sm text-body-color dark:text-dark-6">
+                                <p className="text-sm text-body-color ">
                                     &copy; 2024 by ArchiSoft. All rights reserved.
                                 </p>
                             </div>
@@ -220,7 +215,7 @@ const LinkGroup = ({ children, header }: { children: React.ReactNode; header: st
         <>
             <div className="w-full px-4 sm:w-1/2">
                 <div className="mb-10 w-full">
-                    <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
+                    <h4 className="mb-9 text-lg font-semibold text-dark ">
                         {header}
                     </h4>
                     <ul className="space-y-3">{children}</ul>
@@ -235,7 +230,7 @@ const NavLink = ({ link, label }: { label: string; link: string; }) => {
         <li>
             <Link
                 href={link}
-                className="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                className="inline-block text-base leading-loose text-body-color hover:text-primary "
             >
                 {label}
             </Link>

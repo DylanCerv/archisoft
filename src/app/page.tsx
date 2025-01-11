@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <div className="relative">
-        <svg className="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg className="absolute -z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#a2d9ff3A" fillOpacity="1" d="M0,32L60,42.7C120,53,240,75,360,74.7C480,75,600,53,720,90.7C840,128,960,224,1080,266.7C1200,309,1320,299,1380,293.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
         </svg>
         <NavBar />
@@ -226,7 +226,7 @@ export default function Home() {
               height={300}
               alt="m"
             />
-          
+
             <IconRectagule
               className="hidden lg:block absolute -z-10 top-0 left-10"
               color="#E2E2E2"
