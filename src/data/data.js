@@ -143,7 +143,7 @@ export const DATA = {
       {
         name: "Raymundo Alvarado",
         position: "Development Coordinator at BeXR",
-        imageUrl: "/logos/logo-bexr.jfif",
+        imageUrl: "/logos/logo-bexr.webp",
         text: "We've worked closely with this team on various projects, and their support has been crucial for the success of our VR and AR initiatives. Their expertise and collaboration have exceeded our expectations every time."
       },
       {
