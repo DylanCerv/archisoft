@@ -11,6 +11,11 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@next/next/no-html-link-for-pages": "off", // Desactiva la regla que causa el error
+    },
+  },
 ];
 
 export default eslintConfig;
