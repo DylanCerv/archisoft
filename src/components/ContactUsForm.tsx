@@ -5,7 +5,7 @@ import { BsCheckCircle } from 'react-icons/bs';
 
 export default function ContactUsForm() {
 
-  const form = useRef<any>(null);
+  const form = useRef<HTMLFormElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<{
     success?: boolean
